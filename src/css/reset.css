@@ -8,14 +8,17 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
 }
 
 a {
@@ -25,10 +28,32 @@ a {
 
 button {
   cursor: pointer;
+  font-family: inherit;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+input {
+  font-family: inherit;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
