@@ -1,0 +1,111 @@
+.hero-section {
+  background-image: url('../img-hero/picture-home-mb.jpg'),
+    url(../img-hero/picture-home-mb@2x.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover, cover;
+}
+.hero {
+}
+.hero-text-before-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin-bottom: 30px;
+}
+.hero-text-before {
+  border-radius: 10px;
+  padding: 0px 6px;
+  max-width: 206px;
+  height: 20px;
+  background: rgba(109, 49, 208, 0.5);
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #ffdb80;
+}
+.investments {
+  max-width: 128px;
+}
+.relocation {
+  width: 186px;
+}
+.hero-text-before::after {
+  content: '';
+}
+.hero-heading {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 111%;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.hero-heading-span {
+  font-size: 20px;
+  line-height: 160%;
+}
+.hero-text {
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #fff;
+}
+.hero-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 102px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: center;
+  color: #6d31d0;
+  width: 200px;
+  height: 48px;
+  border-radius: 88px;
+  padding: 16px 22px;
+  width: 200px;
+  height: 48px;
+  box-shadow: 0 4px 35px 0 rgba(255, 185, 175, 0.3);
+  background: linear-gradient(152deg, #ffeb80 0%, #fdbfa3 100%);
+}
+.hero-img-box {
+  border: 2px solid #fff;
+  border-radius: 12px;
+  padding: 10px 10px 0px 10px;
+  width: 144px;
+  height: 180px;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.02),
+    5px 6px 7px 0 rgba(0, 0, 0, 0.03), 13px 15px 13px 0 rgba(0, 0, 0, 0.04),
+    25px 30px 25px 0 rgba(0, 0, 0, 0.04), 41px 50px 47px 0 rgba(0, 0, 0, 0.05),
+    64px 77px 80px 0 rgba(0, 0, 0, 0.07);
+  background: #fff;
+}
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.hero-text-img {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.hero-img {
+  border-radius: 10px 10px 4px 4px;
+  margin-bottom: 10px;
+}
+.hero-img-city-name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  color: #828cde;
+}
