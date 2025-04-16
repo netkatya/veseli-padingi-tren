@@ -1,5 +1,6 @@
 .choose {
-  padding: 60px 20px;
+  padding: 60px 15px;
+  background-color: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%);
 }
 .choose-title {
   font-weight: 600;
@@ -22,12 +23,25 @@
 .choose-item-icon {
 }
 .choose-icon {
+  width: 100px;
+  height: 100px;
 }
 .icon-item {
 }
 .choose-item-content {
 }
 .choose-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: #6d31d0;
 }
 .choose-subtext {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #434364;
 }
