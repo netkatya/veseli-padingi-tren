@@ -1,19 +1,17 @@
 .hero-section {
-  background-image: url('../img-hero/picture-home-mb.jpg'),
-    url(../img-hero/picture-home-mb@2x.jpg);
-  background-repeat: no-repeat, no-repeat;
-  background-size: cover, cover;
+  background-image: url('../img-hero/picture-home-mb.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 57px 40px 57px;
 }
-.hero {
-}
-.hero-text-before-container {
+.hero-tags-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 22px;
+  gap: 10px;
   margin-bottom: 30px;
 }
-.hero-text-before {
+.hero-text-tag {
   border-radius: 10px;
   padding: 0px 6px;
   max-width: 206px;
@@ -24,14 +22,8 @@
   text-transform: uppercase;
   color: #ffdb80;
 }
-.investments {
-  max-width: 128px;
-}
-.relocation {
-  width: 186px;
-}
-.hero-text-before::after {
-  content: '';
+.hero-tag-span {
+  color: #fff;
 }
 .hero-heading {
   font-weight: 600;
@@ -48,11 +40,16 @@
 .hero-text {
   margin-bottom: 30px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 150%;
   letter-spacing: 0.03em;
   text-align: center;
   color: #fff;
+}
+.hero-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-button {
   outline: none;
@@ -62,7 +59,6 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 160%;
-  text-align: center;
   color: #6d31d0;
   width: 200px;
   height: 48px;
@@ -70,6 +66,9 @@
   padding: 16px 22px;
   width: 200px;
   height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   box-shadow: 0 4px 35px 0 rgba(255, 185, 175, 0.3);
   background: linear-gradient(152deg, #ffeb80 0%, #fdbfa3 100%);
 }
@@ -83,7 +82,7 @@
     5px 6px 7px 0 rgba(0, 0, 0, 0.03), 13px 15px 13px 0 rgba(0, 0, 0, 0.04),
     25px 30px 25px 0 rgba(0, 0, 0, 0.04), 41px 50px 47px 0 rgba(0, 0, 0, 0.05),
     64px 77px 80px 0 rgba(0, 0, 0, 0.07);
-  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
 }
 .hero-img-container {
   display: flex;
@@ -93,6 +92,7 @@
   flex-wrap: wrap;
 }
 .hero-text-img {
+  padding-left: 51px;
   font-weight: 600;
   font-size: 20px;
   line-height: 160%;
@@ -102,10 +102,15 @@
 .hero-img {
   border-radius: 10px 10px 4px 4px;
   margin-bottom: 10px;
+  width: 100%;
 }
 .hero-img-city-name {
   font-weight: 600;
   font-size: 20px;
   line-height: 160%;
   color: #828cde;
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 1440px) {
 }
