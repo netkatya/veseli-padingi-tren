@@ -39,6 +39,16 @@
     display: block;
     margin: 0 auto;
     border: none;
+    transition: color 250ms ease-in-out;
+
+}
+
+.moving-button:hover,
+.moving-button:focus {
+    box-shadow: 0 4px 35px 0 rgba(255, 185, 175, 0.3);
+    background: linear-gradient(90deg, #6d31d0 0%, #ab80ef 100%);
+    border: 1px solid #ffdb80;
+    color: #ffdb80;
 }
 
 @media only screen and (min-width: 768px) {
