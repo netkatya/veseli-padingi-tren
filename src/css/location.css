@@ -1,13 +1,21 @@
+.location-card {
+    display: none;
+}
+/*
+.location-card.active {
+    display: block;
+}*/
+
 .location {
     padding-top: 80px;
     padding-bottom: 80px;
 }
-/*
+
 .location-left-side {
     max-width: 480px;
     margin: 0 auto;
 }
-*/
+
 .location-title {
     font-weight: 600;
     font-size: 28px;
