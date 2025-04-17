@@ -1,6 +1,9 @@
 .choose {
-  padding: 60px 15px;
+  padding: 60px 0;
   background: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%);
+}
+.choose-container {
+  padding: 0 20px;
 }
 .choose-main-content {
   display: flex;
@@ -66,9 +69,11 @@
 }
 @media only screen and (min-width: 768px) {
   .choose {
-    padding: 80px 94px;
+    padding: 80px 0;
   }
-
+  .choose-container {
+    padding: 0 94px;
+  }
   .choose-title {
     font-size: 36px;
     line-height: 1.11;
@@ -96,9 +101,11 @@
 }
 @media only screen and (min-width: 1440px) {
   .choose {
-    padding: 80px 130px;
+    padding: 80px 0;
   }
-
+  .choose-container {
+    padding: 0 130px;
+  }
   .choose-text {
     max-width: 630px;
   }
