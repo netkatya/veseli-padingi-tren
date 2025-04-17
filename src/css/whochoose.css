@@ -1,7 +1,6 @@
 .choose {
   padding: 60px 15px;
-  width: 100%;
-  max-height: 945px;
+
   background: linear-gradient(180deg, #fefc9e 0%, #fdbfa3 78.65%);
 }
 .choose-main-content {
@@ -25,7 +24,7 @@
   letter-spacing: 0.03em;
   text-align: center;
   color: #434364;
-  max-width: 369px;
+  max-width: 400px;
   margin: 0 auto;
   margin-bottom: 60px;
 }
