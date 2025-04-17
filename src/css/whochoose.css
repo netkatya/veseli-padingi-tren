@@ -94,55 +94,16 @@
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 1440px) {.choose {
-  padding: 80px 130px;
-  
-}
-.choose-main-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+@media only screen and (min-width: 1440px) {
+  .choose {
+    padding: 80px 130px;
+  }
 
-.choose-text {
-  max-width: 580px;
-  
-}
-.choose-list {
-  display: flex;
-  flex-direction: row;
+  .choose-text {
+    max-width: 630px;
+  }
 
-  justify-content: center;
-  row-gap: 40px;
-  column-gap: 20px;
-  flex-wrap: wrap;
+  .choose-item {
+    max-width: 280px;
+  }
 }
-.choose-item {
-  max-width: 190px;
-  flex-basis: calc((100% - 20px) / 2);
-}
-.choose-foto {
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-  margin-bottom: 24px;
-}
-.choose-item-content {
-}
-.choose-subtitle {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.6;
-  text-align: center;
-  color: #6d31d0;
-  margin-bottom: 4px;
-}
-.choose-subtext {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #434364;
-}Ї
