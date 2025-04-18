@@ -1,0 +1,122 @@
+.services {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: linear-gradient(180deg, #828cde 0%, #6d31d0 100%);
+}
+
+.services-container {
+  padding: 0 50px;
+}
+
+.services-header {
+  margin-bottom: 60px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 111%;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative;
+}
+
+.services-header::after {
+  content: '';
+  width: 380px;
+  height: 4px;
+  background-color: #fdbfa3;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+}
+
+.services-list {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.services-list-item {
+  background-color: #fbfbfb;
+  border-radius: 20px;
+  box-shadow: 0 14px 23px 0 rgba(28, 37, 44, 0.08);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+
+  transition: transform 300ms ease-in-out;
+  cursor: pointer;
+}
+
+.services-list-item:hover {
+  transform: scale(1.05);
+}
+
+.services-list-item.last-row {
+  margin-bottom: 0;
+}
+
+.services-list-item-img {
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.services-cart-texts {
+  padding-left: 21px; /*must be 30px */
+  padding-right: 21px; /*must be 30px */
+}
+
+.services-cart-header {
+  max-width: 300px;
+  margin: 0 auto 20px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+  color: #434364;
+}
+
+.services-text {
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #434364;
+}
+
+@media only screen and (min-width: 768px) {
+  .services-container {
+    max-width: 768px;
+    padding: 0 94px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .services-container {
+    max-width: 1440px;
+    padding: 0 130px;
+  }
+  .services-header {
+    margin-bottom: 80px;
+  }
+
+  .services-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* margin-bottom: 50px; */
+  }
+
+  .services-list-item {
+    flex-basis: calc((100% - 40px) / 3);
+    margin-bottom: 0;
+  }
+}
