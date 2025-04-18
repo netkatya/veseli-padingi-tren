@@ -3,7 +3,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
   padding: 40px 0 40px 0;
 }
 @media screen and (min-resolution: 2x) {
@@ -20,7 +19,7 @@
 }
 .hero-text-tag {
   border-radius: 10px;
-  padding: 0px 6px;
+  padding: 0 4px;
   max-width: 206px;
   height: 20px;
   background: rgba(109, 49, 208, 0.5);
@@ -53,7 +52,7 @@
   width: 365px;
   margin-bottom: 30px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
   letter-spacing: 0.03em;
   text-align: center;
@@ -62,13 +61,13 @@
 .hero-button-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-bottom: 102px;
 }
 .hero-button {
   outline: none;
   border: none;
   cursor: pointer;
-  margin-bottom: 102px;
+
   font-weight: 600;
   font-size: 20px;
   line-height: 160%;
@@ -126,30 +125,65 @@
 @media only screen and (min-width: 768px) {
   .hero-section {
     background-image: url(/img-hero/picture-home-tablet.jpg);
+    padding-top: 140px;
+  }
+  .hero-tags-container {
+    margin-bottom: 20px;
+  }
+  .test {
+    width: 564px;
+    padding: 0 94px 0 94px;
+  }
+  .hero-heading {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .hero-text {
+    text-align: start;
+    min-width: 450px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .hero-button-container {
+    justify-content: flex-start;
+    margin-bottom: 107px;
+  }
+  .hero-text-img {
+    padding-left: 0;
+  }
+  .test2 {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
+  .hero-img-container {
+    flex-wrap: nowrap;
+  }
+  .hero-img-box {
+    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.02),
+      5px 6px 7px 0 rgba(0, 0, 0, 0.03), 13px 15px 13px 0 rgba(0, 0, 0, 0.04),
+      25px 30px 25px 0 rgba(0, 0, 0, 0.04), 41px 50px 47px 0 rgba(0, 0, 0, 0.05),
+      64px 77px 80px 0 rgba(0, 0, 0, 0.07);
+    background: #fff;
   }
 }
 @media only screen and (min-width: 768px) and (min-resolution: 2x) {
   .hero-section {
     background-image: url(/img-hero/picture-home-tablet@2x.jpg);
   }
-  .hero-heading {
-  }
-  .hero-tags-container {
-    flex-wrap: nowrap;
-    margin-bottom: 20px;
-  }
-  .hero-text-tag {
-  }
-  .test {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    padding-left: 94px;
-  }
-  .hero-text {
-    text-align: none;
-    font-size: 18px;
-  }
 }
 @media only screen and (min-width: 1440px) {
+  .hero-section {
+    background-image: url(/img-hero/picture-home-desk1440.jpg);
+    padding: 130px 158px 63px 158px;
+  }
+  .hero-img-container {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-width: 1440px) and (min-resolution: 2x) {
+  .hero-section {
+    background-image: url(/img-hero/img-hero/picture-home-desk1440@2x.jpg);
+  }
 }
